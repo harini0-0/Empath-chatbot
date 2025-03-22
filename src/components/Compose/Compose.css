@@ -1,0 +1,55 @@
+
+.compose {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-top: 1px solid #eeeef1;
+    position: fixed;
+    bottom: 20px;
+    border-radius: 15px;
+    float: left;
+    /* position: fixed; */
+    width: 70vw;
+    /* bottom: 0px; */
+  }
+  
+  @supports (backdrop-filter: blur(20px)) {
+    .compose {
+      border: none;
+      background-color: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+    }
+  }
+  
+  .compose-input {
+    flex: 1;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    background: none;
+  }
+  
+  .compose-input::placeholder {
+    opacity: 0.3;
+  }
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+    float: left;
+    background-color: #25D9B0;
+    text-align: center;
+    /* height: 40px; */
+  }
+  .btn-lg{
+    font-size: 27px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+  }
+
+
